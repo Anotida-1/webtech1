@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Contact Us</title>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<link rel="stylesheet" href="css/bootstrap.min.css">
+
+  
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" media="all" href="css1/style.css">
+
+
+
+
+
+
+<style type="text/css">
+
+@charset "UTF-8";
+/* Base Styles */
+#cssmenu > ul,
+#cssmenu > ul li,
+#cssmenu > ul ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+#cssmenu > ul {
+  position: relative;
+  z-index: 597;
+}
+#cssmenu > ul li {
+  float: left;
+  min-height: 1px;
+  line-height: 1.3em;
+  vertical-align: middle;
+}
+#cssmenu > ul li.hover,
+#cssmenu > ul li:hover {
+  position: relative;
+  z-index: 599;
+  cursor: default;
+}
+#cssmenu > ul ul {
+  visibility: hidden;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 598;
+  width: 100%;
+}
+#cssmenu > ul ul li {
+  float: none;
+}
+#cssmenu > ul ul ul {
+  top: 1px;
+  left: 99%;
+}
+#cssmenu > ul li:hover > ul {
+  visibility: visible;
+}
+/* Align last drop down RTL */
+#cssmenu > ul > li.last ul ul {
+  left: auto !important;
+  right: 99%;
+}
+#cssmenu > ul > li.last ul {
+  left: auto;
+  right: 0;
+}
+#cssmenu > ul > li.last {
+  text-align: right;
+}
+/* Theme Styles */
+#cssmenu > ul {
+  border-top: 4px solid #3fa338;
+  font-family: Calibri, Tahoma, Arial, sans-serif;
+  font-size: 14px;
+  background: #1e1e1e;
+  background: -moz-linear-gradient(top, #1e1e1e 0%, #040404 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #1e1e1e), color-stop(100%, #040404));
+  background: -webkit-linear-gradient(top, #1e1e1e 0%, #040404 100%);
+  background: linear-gradient(top, #1e1e1e 0%, #040404 100%);
+  width: auto;
+  zoom: 1;
+}
+#cssmenu > ul:before {
+  content: '';
+  display: block;
+}
+#cssmenu > ul:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+#cssmenu > ul li a {
+  display: inline-block;
+  padding: 10px 22px;
+}
+#cssmenu > ul > li.active,
+#cssmenu > ul > li.active:hover {
+  background-color: #3fa338;
+}
+#cssmenu > ul > li > a:link,
+#cssmenu > ul > li > a:active,
+#cssmenu > ul > li > a:visited {
+  color: #ffffff;
+}
+#cssmenu > ul > li > a:hover {
+  color: #ffffff;
+}
+#cssmenu > ul ul ul {
+  top: 0;
+}
+#cssmenu > ul li li {
+  background-color: #ffffff;
+  border-bottom: 1px solid #ebebeb;
+  font-size: 12px;
+}
+#cssmenu > ul li.hover,
+#cssmenu > ul li:hover {
+  background-color: #F5F5F5;
+}
+#cssmenu > ul > li.hover,
+#cssmenu > ul > li:hover {
+  background-color: #3fa338;
+  -webkit-box-shadow: inset 0 -3px 0 rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: inset 0 -3px 0 rgba(0, 0, 0, 0.15);
+  box-shadow: inset 0 -3px 0 rgba(0, 0, 0, 0.15);
+}
+#cssmenu > ul a:link,
+#cssmenu > ul a:visited {
+  color: #9a9a9a;
+  text-decoration: none;
+}
+#cssmenu > ul a:hover {
+  color: #9a9a9a;
+}
+#cssmenu > ul a:active {
+  color: #9a9a9a;
+}
+#cssmenu > ul ul {
+  border: 1px solid #CCC \9;
+  -webkit-box-shadow: 0 0px 2px 1px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 0 0px 2px 1px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 0px 2px 1px rgba(0, 0, 0, 0.15);
+  width: 150px;
+}
+
+.social-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 23px;
+    font: 900 13px/1 "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.5);
+}
+.social-container .col {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+.nav-list li a:before {
+    content: "\f14f";
+    font: 400 21px/1 "Material Design Icons";
+    color: #4d6de6;
+    display: inline-block;
+    vertical-align: baseline;
+    margin-left: -28px;
+    margin-right: 7px;
+    opacity: 0;
+    visibility: hidden;
+    transition: .22s ease;
+}
+
+
+/* Footer */
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+section {
+    padding: 60px 0;
+}
+
+section .section-title {
+    text-align: center;
+
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+#footer {
+    background: #1E90FF !important;
+}
+#footer h5{
+  padding-left: 10px;
+    border-left: 3px solid #eeeeee;
+    padding-bottom: 6px;
+    margin-bottom: 20px;
+    color:#ffffff;
+}
+#footer a {
+    color: black;
+    text-decoration: none !important;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+#footer ul.social li{
+  padding: 3px 0;
+}
+#footer ul.social li a i {
+    margin-right: 5px;
+  font-size:25px;
+  -webkit-transition: .5s all ease;
+  -moz-transition: .5s all ease;
+  transition: .5s all ease;
+}
+#footer ul.social li:hover a i {
+  font-size:30px;
+  margin-top:-10px;
+}
+#footer ul.social li a,
+#footer ul.quick-links li a{
+  color:#ffffff;
+}
+#footer ul.social li a:hover{
+  color:#eeeeee;
+}
+#footer ul.quick-links li{
+  padding: 3px 0;
+  -webkit-transition: .5s all ease;
+  -moz-transition: .5s all ease;
+  transition: .5s all ease;
+}
+#footer ul.quick-links li:hover{
+  padding: 3px 0;
+  margin-left:5px;
+  font-weight:700;
+}
+#footer ul.quick-links li a i{
+  margin-right: 5px;
+}
+#footer ul.quick-links li:hover a i {
+    font-weight: 700;
+}
+@media (max-width:767px){
+  #footer h5 {
+    padding-left: 0;
+    border-left: transparent;
+    padding-bottom: 0px;
+    margin-bottom: 10px;
+}
+
+
+
+
+
+</style>
+
+</head>
+<body>
+
+
+
+<div>
+  <img src ="com.PNG" class="mx-auto d-block">
+  </div>
+
+
+   <div id='cssmenu'>
+<ul>
+   <li class='active'><a href='index.html'><span>Home</span></a></li>
+    <li><a href='Services.html'><span>Services</span></a></li>
+   <li class='has-sub'><a href='#'><span>Location</span></a>
+      <ul>
+         <li class='has-sub'><a href='Established.html'><span><font color="black">Established CICs</font></span></a>
+         <li class='has-sub'><a href='Unestablished.html'><span><font color="black">Non Functional CICs</font></span></a> 
+         </li>
+      </ul>
+   </li>
+   <li><a href='About Us.html'><span>About Us</span></a></li>
+   <li class='last'><a href='Contact Us.html'><span>Contact Us</span></a></li>
+</ul>
+</div>
+
+
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+<br>
+
+<div class="container">
+
+<h3 class="text-center"><b><font color="#1E90FF">Contact Us</font></b></h3><br />
+
+<div class="row">
+  <div class="col-md-8">
+      <form action="Contact Us.php" method="post" onsubmit="return validation()" class="bg-light">
+
+        <div class = "form-group">
+          <label> Full Name:</label>
+        <input class="form-control" name="name" placeholder="Type your Name here..."  id="user" required="required" autocomplete ="off"/><br />
+        <span id="username" class="text-danger font-weight-bold"></span>
+      </div>
+
+      <div class="form-group"> 
+        <label>Phone Number:</label>
+        <input class="form-control" name="phone" placeholder="Type your Phone Number here..."  id="phone"  autocomplete ="off" /><br />
+          <span id="phonenumber" class="text-danger font-weight-bold"></span>
+      </div>
+
+      <div class="form-group">
+        <label>Email:</label>
+        <input class="form-control" name="email" placeholder="Type your Email here..."  id="email"  required="required" autocomplete ="off"/><br />
+          <span id="youremail" class="text-danger font-weight-bold"></span>
+      </div>
+
+      <div class="form-group">
+        <label>Message:</label>
+        <textarea class="form-control" name="text" placeholder="Type Your Message here..."  id="msg" autocomplete ="off" required="required"  style="height:150px;"></textarea><br />
+          <span id="message" class="text-danger font-weight-bold"></span>
+      </div>
+        <input class="btn btn-primary" type="submit" value="Send" autocomplete ="off" /><br /><br />
+      </form>
+
+  </div> 
+
+
+<script type="text/javascript">
+  
+
+function validation(){
+
+  var user = document.getElementById('user').value;
+  var phone = document.getElementById('phone').value;
+  var email = document.getElementById('email').value;
+  var msg = document.getElementById('msg').value;
+
+  if(user == "")
+  {
+
+document.getElementById('username').innerHTML = " ** Please fill in your full name";
+return false;
+
+  }
+if((user.length <= 2) || (user.length > 20))
+{
+  document.getElementById('username').innerHTML = " ** Your Name must be between 2 and 20 characters";
+return false;
+}
+if(!isNan(user)){
+  document.getElementById('username').innerHTML = " ** only letters are allowed";
+return false;
+}
+
+
+
+
+
+if(phone == "")
+  {
+
+document.getElementById('phonenumber').innerHTML = " **Please enter your phone number";
+return false;
+
+  }
+if(phone.length != 10)
+{
+  document.getElementById('phonenumber').innerHTML = " ** Your Phone number must be 10 digits only";
+return false;
+}
+if(isNan(phone))
+{
+  document.getElementById('phonenumber').innerHTML = " ** Only digits are allowed";
+return false;
+}
+
+
+
+
+
+if(email == "")
+  {
+
+document.getElementById('youremail').innerHTML = " ** Please fill in your email";
+return false;
+
+  }
+if(email.indexOf('@') <= 0)
+{
+  document.getElementById('youremail').innerHTML = " ** The  '@' character must be missing in your email";
+return false;
+}
+
+if((email.charAt(email.length-4)!='.') && (email.charAt(email.length-3)!='.')){
+
+document.getElementById('youremail').innerHTML = " ** The '.' character must be missing in your email";
+return false;
+}
+
+
+
+    if(msg == "")
+  {
+
+document.getElementById('message').innerHTML = " ** Please fill in your message ";
+return false;
+
+  }
+
+
+}
+
+
+
+
+</script>
+
+
+
+
+
+  <div class="col-md-4">
+    <b><font color="#1E90FF">Ministry of Information Community Technology and Courier Services:</font></b> <br />
+    76 Samora Machel Avenue, Bank Chambers 7th floor, <br />
+    Harare, Zimbabwe, <br />
+    Phone: (+263) 24 707 347<br />
+    E-mail: <a href="mailto:support@mysite.com">info@ictministry.gov.zw</a><br />
+    <br /><br />
+    <b><font color="#1E90FF">POTRAZ:</font></b><br />
+    1008 Perfomance Close, Mt Pleasant Business Park, <br />
+    P.O Box MP 843m Mt Pleasant, Harare, Zimbabwe<br />
+    Phone: +263-4-333032<br />
+    Fax  : +263-4-333041<br />
+    Our Twitter Handle: <a href="@Potraz_Zw">@Potraz_Zw</a><br />
+
+
+    <br /><br />
+    <b><font color="#1E90FF">ZIMPOST:</font></b><br />
+    4th Floor, Harare Main Post Office Building, <br />
+    Cnr. Innez Terrace and G. Silunduka Avenue<br />
+    P.O Box 100. Harare, Zimbabwe<br/>
+    Phone: +263 4 783 585-94<br />
+    Fax  : +263 4 761 544<br />
+    Website: <a href="www.zimpost.co.zw">www.zimpost.co.zw</a><br />
+    Email: <a href="enquiries@zimpost.co.zw">  enquiries@zimpost.co.zw</a><br />
+
+  </div>
+</div>
+
+</div>
+
+<br>
+<!--Footer -->
+<section id="footer">
+    <div class="container">
+      <div class="row text-center text-xs-center text-sm-left text-md-left">
+        <div class="col-xs-12 col-sm-4 col-md-4">
+          <h5><b>Quick links</b></h5>
+          <ul class="list-unstyled quick-links">
+            <li><a href="index.html"><i class="fa fa-angle-double-right"></i>Home</a></li>
+            <li><a href="Services.html"><i class="fa fa-angle-double-right"></i>Services</a></li>
+            <li><a href="About Us.html"><i class="fa fa-angle-double-right"></i>About Us</a></li>
+            <li><a href="Contact Us.html"><i class="fa fa-angle-double-right"></i>Contact Us</a></li>
+          </ul>
+        </div>
+        
+<div class="col-xs-12 col-sm-4 col-md-4">
+    <h5><b>News Letter</b></h5>
+        
+  <div class="single">
+    <div class="input-group">
+       <input type="text" class="form-control" placeholder="Enter your Name" required="required">
+       <br><br><br>
+           <input type="email" class="form-control" placeholder="Enter your Email" required="required">
+          <br><br><br> 
+           <button class="btn btn-theme" type="submit">Subscribe</button>
+           
+      </div>
+  </div>
+</div>
+ 
+<div class="col-md-4">
+              <h5><b>Contacts</b></h5>
+              <dl class="contact-list">
+
+                
+             <dt><font color="white">Address:</font></dt>
+        
+                <dd><font color="white">76 Samora Machel Avenue, Harare, Zimbabwe </font></dd>
+              </dl>
+              <dl class="contact-list">
+                <dt><font color="white">Email:</font></dt>
+                <dd><a href="info@ictministry.gov.zw"><font color="white">info@ictministry.gov.zw</font></a></dd>
+              </dl>
+              <dl class="contact-list">
+              <dt><font color="white">Phones:</font></dt>
+                <dd><a href="tel:#"><font color="white">(+263) 24 707 347</font></a>
+                </dd>
+              </dl>
+            </div>
+        </div>
+
+</div>
+
+
+
+
+  <div class="row no-gutters social-container">
+          <div class="col"><a class="social-inner" href="#"><span class="icon mdi mdi-facebook"></span><span>Facebook</span></a></div>
+          <div class="col"><a class="social-inner" href="#"><span class="icon mdi mdi-instagram"></span><span>instagram</span></a></div>
+          <div class="col"><a class="social-inner" href="#"><span class="icon mdi mdi-twitter"></span><span>twitter</span></a></div>
+          <div class="col"><a class="social-inner" href="#"><span class="icon mdi mdi-youtube-play"></span><span>google</span></a></div>
+        </div>
+
+  
+      <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-2 text-center text-white">
+          
+          <p class="h6">&copy All rights Reserved.<a class="text-green ml-2" href="https://www.house of gadgets.com" target="_blank">Community Information Centres</a></p>
+        </div>
+        </hr>
+      </div>  
+    </div>
+  </section>
+
+
+
+
+</body>
+</html>
+
+
+
+
+
